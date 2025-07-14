@@ -108,8 +108,8 @@ st.markdown(
 
 
 
-#chiave = st.secrets["superkey"]
-chiave = "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"
+chiave = st.secrets["superkey"]
+
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
